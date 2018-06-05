@@ -1,0 +1,170 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6758283686,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify order confirmation page and order successful",
+        "description": "",
+        "id": "order-confirmation;verify-order-confirmation-page-and-order-successful",
+        "after": [
+          {
+            "result": {
+              "duration": 1304312365,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11119754569,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open automationpractice website",
+            "match": {
+              "location": "SigninSignoutContactUsSteps.i_open_automationpractice_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5372058361,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I sign in",
+            "match": {
+              "location": "SigninSignoutContactUsSteps.i_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13693561688,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I select a dress and proceed to checkout",
+            "match": {
+              "location": "OrderConfirmationSteps.i_select_a_dress_and_proceed_to_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1344904332,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify details on shoppingCart summary page",
+            "match": {
+              "location": "OrderConfirmationSteps.i_verify_details_on_shoppingCart_summary_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1338567518,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify address and proceed",
+            "match": {
+              "location": "OrderConfirmationSteps.i_verify_address_and_proceed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1323034401,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify shipping details and proceed",
+            "match": {
+              "location": "OrderConfirmationSteps.i_verify_shipping_details_and_proceed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 953788756,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify payment details page and proceed",
+            "match": {
+              "location": "OrderConfirmationSteps.i_verify_payment_details_page_and_proceed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1760199991,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify order summary page and proceed",
+            "match": {
+              "location": "OrderConfirmationSteps.i_verify_order_summary_page_and_proceed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77247526,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify order confirmation page details and verify success message",
+            "match": {
+              "location": "OrderConfirmationSteps.i_verify_order_confirmation_page_details_and_verify_success_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2610951293,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I sign out",
+            "match": {
+              "location": "SigninSignoutContactUsSteps.i_sign_out()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Order Confirmation",
+    "description": "",
+    "id": "order-confirmation",
+    "keyword": "Feature",
+    "uri": "features/OrderConfirmation.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@OrderConfirm"
+      }
+    ]
+  }
+]
